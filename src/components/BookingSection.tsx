@@ -11,7 +11,7 @@ const BookingSection = () => {
     <section id="contacto" className="relative w-full">
       <div className="absolute inset-0">
         <img src={salonInterior} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-foreground/80" />
+        <div className="absolute inset-0 bg-foreground/85" />
       </div>
       <div className="relative z-10 max-w-[800px] mx-auto px-6 py-20 md:py-28 text-center">
         <RevealSection direction="up">
@@ -19,7 +19,7 @@ const BookingSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white leading-[1.1] mt-4 mb-6">
             Reservar es <span className="italic font-light">fácil.</span>
           </h2>
-          <p className="font-body text-base text-white/65 leading-[1.8] mb-10 max-w-[550px] mx-auto">
+          <p className="font-body text-base text-white/75 leading-[1.8] mb-10 max-w-[550px] mx-auto">
             Llamanos al 011 4774-4011, o escribinos por WhatsApp y te confirmamos el turno disponible con Rodrigo o Eugenia.
           </p>
 
@@ -32,19 +32,19 @@ const BookingSection = () => {
             </a>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-6 text-white/50">
-            <div className="flex items-center gap-2">
-              <img src={iconPin} alt="" className="w-4 h-4" style={{ filter: "brightness(0) invert(1) opacity(0.5)" }} />
-              <span className="font-accent text-xs">Bonpland 1427, Palermo</span>
+          <div className="flex flex-wrap items-center justify-center gap-8 text-white/75">
+            <div className="flex items-center gap-2.5">
+              <img src={iconPin} alt="" className="w-5 h-5" style={{ filter: "brightness(0) invert(1) opacity(0.7)" }} />
+              <span className="font-accent text-sm">Bonpland 1427, Palermo</span>
             </div>
-            <div className="flex items-center gap-2">
-              <img src={iconClock} alt="" className="w-4 h-4" style={{ filter: "brightness(0) invert(1) opacity(0.5)" }} />
-              <span className="font-accent text-xs">Mar–Sáb 8–20hs</span>
+            <div className="flex items-center gap-2.5">
+              <img src={iconClock} alt="" className="w-5 h-5" style={{ filter: "brightness(0) invert(1) opacity(0.7)" }} />
+              <span className="font-accent text-sm">Mar–Sáb 8–20hs</span>
             </div>
-            <div className="flex items-center gap-2">
-              <img src={google} alt="" className="h-3" />
-              <div className="flex gap-0.5">{[...Array(5)].map((_, i) => <img key={i} src={star} alt="" className="w-2.5 h-2.5" />)}</div>
-              <span className="font-accent text-xs">4.6 · 140 reseñas</span>
+            <div className="flex items-center gap-2.5">
+              <img src={google} alt="" className="h-5" />
+              <div className="flex gap-0.5">{[...Array(5)].map((_, i) => <img key={i} src={star} alt="" className="w-3.5 h-3.5" />)}</div>
+              <span className="font-accent text-sm">4.6 · 140 reseñas</span>
             </div>
           </div>
         </RevealSection>

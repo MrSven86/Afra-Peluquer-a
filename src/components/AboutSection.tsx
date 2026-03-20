@@ -33,7 +33,7 @@ const AboutSection = () => {
 
         <div className="flex flex-col lg:flex-row items-start gap-12">
           <RevealSection direction="left" className="flex-1">
-            <img src={owners} alt="Rodrigo y Eugenia" className="w-full h-[500px] object-cover mb-6" />
+            <img src={owners} alt="Rodrigo y Eugenia" className="w-full h-[500px] object-cover object-top mb-6" />
             <div className="flex flex-col md:flex-row gap-8">
               <div className="flex-1">
                 <h3 className="font-display text-xl font-bold text-foreground mb-1">Rodrigo</h3>

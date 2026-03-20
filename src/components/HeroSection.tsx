@@ -37,18 +37,18 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-wrap items-center gap-6" style={{ opacity: loaded ? 1 : 0, transform: loaded ? "translateY(0)" : "translateY(20px)", transition: "all 1s cubic-bezier(0.16,1,0.3,1) 1s" }}>
-          <div className="flex items-center gap-2">
-            <img src={google} alt="Google" className="h-4 object-contain" />
-            <div className="flex gap-0.5">{[...Array(5)].map((_, i) => <img key={i} src={star} alt="" className="w-3 h-3" />)}</div>
-            <span className="font-accent text-sm text-white/70">4.6 · 140 reseñas</span>
+          <div className="flex items-center gap-2.5">
+            <img src={google} alt="Google" className="h-6 object-contain" />
+            <div className="flex gap-0.5">{[...Array(5)].map((_, i) => <img key={i} src={star} alt="" className="w-4 h-4" />)}</div>
+            <span className="font-accent text-base text-white/85 font-medium">4.6 · 140 reseñas</span>
           </div>
-          <div className="flex items-center gap-2">
-            <img src={iconPin} alt="" className="w-4 h-4" style={{ filter: "brightness(0) invert(1) opacity(0.6)" }} />
-            <span className="font-accent text-sm text-white/60">Bonpland 1427, Palermo</span>
+          <div className="flex items-center gap-2.5">
+            <img src={iconPin} alt="" className="w-5 h-5" style={{ filter: "brightness(0) invert(1) opacity(0.8)" }} />
+            <span className="font-accent text-base text-white/80">Bonpland 1427, Palermo</span>
           </div>
-          <div className="flex items-center gap-2">
-            <img src={iconClock} alt="" className="w-4 h-4" style={{ filter: "brightness(0) invert(1) opacity(0.6)" }} />
-            <span className="font-accent text-sm text-white/60">Mar–Sáb · 8 a 20hs</span>
+          <div className="flex items-center gap-2.5">
+            <img src={iconClock} alt="" className="w-5 h-5" style={{ filter: "brightness(0) invert(1) opacity(0.8)" }} />
+            <span className="font-accent text-base text-white/80">Mar–Sáb · 8 a 20hs</span>
           </div>
         </div>
       </div>
